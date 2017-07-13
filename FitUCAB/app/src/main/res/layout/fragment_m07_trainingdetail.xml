@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fitucab.ds1617b.fitucab.UI.Fragments.M07.M07TrainingdetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:id="@+id/lv_m07_trainingdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="125dp"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@color/colorBtnConfirmar"
+        android:fontFamily="sans-serif"
+        android:text="Agregar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:typeface="sans"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_m07_Decline"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@color/colorBtnDenegar"
+        android:fontFamily="sans-serif"
+        android:text="Declinar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:typeface="sans"
+        app:layout_constraintRight_toLeftOf="@+id/btnAdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="180dp"
+        android:layout_marginTop="400dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</FrameLayout>

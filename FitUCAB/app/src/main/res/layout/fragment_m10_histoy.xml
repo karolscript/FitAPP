@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fitucab.ds1617b.fitucab.UI.Fragments.M10.M10HistoyFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/cantidadAgua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="TextView" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAgua"
+        android:max="2000"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07" />
+
+    <ListView
+        android:id="@+id/list_water"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_weight="0.62">
+
+    </ListView>
+
+
+</LinearLayout>
+
